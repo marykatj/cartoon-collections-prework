@@ -9,9 +9,9 @@ def summon_captain_planet(planeteer_calls)
     puts "#{call}!"                     # make array into string
   end
   string = planeteer_calls.join(" ")
-  new_string = string.capitalize
-  new_planeteer_calls = new_string.split(" ")
-  return planeteer_calls
+  string.capitalize!
+  new_planeteer_calls = string.split(" ")
+  return new_planeteer_calls
 end
 
 def long_planeteer_calls# code an argument here
