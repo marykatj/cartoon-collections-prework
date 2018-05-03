@@ -5,9 +5,6 @@ def roll_call_dwarves(dwarf_names)
 end
 
 def summon_captain_planet(planeteer_calls)
-  planeteer_calls.join(" ")
-  new_sentence = "#{planeteer_calls}!"
-  planeteer_calls.split(" ")
   planeteer_calls.map { |call| puts call.capitalize + '!' }
 end
 
