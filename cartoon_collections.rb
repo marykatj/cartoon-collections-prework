@@ -24,4 +24,5 @@ def find_the_cheese(strings)
     cheese_types.each do |cheese|
       if food == cheese
         return food
+      else return nil
 end
