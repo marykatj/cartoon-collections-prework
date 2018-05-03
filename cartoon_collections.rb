@@ -1,7 +1,7 @@
 def roll_call_dwarves(dwarf_names)
   dwarf_names.collect do |name, index|
-    number = index + 1
-    puts "#{number}. #{name}"
+    index += 1
+    puts "#{index}. #{name}"
   end
 end
 
