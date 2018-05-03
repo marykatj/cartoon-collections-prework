@@ -6,7 +6,6 @@ end
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.split.map! { |call| call.capitalize.join(" ")}
-  return new_planeteer_calls
 end
 
 def long_planeteer_calls# code an argument here
