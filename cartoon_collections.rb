@@ -7,7 +7,7 @@ end
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.join(" ")
   planeteer_calls.collect { |call| call.capitalize}
-  planeteer_calls.split
+  planeteer_calls.split(" ")
 end
 
 def long_planeteer_calls# code an argument here
