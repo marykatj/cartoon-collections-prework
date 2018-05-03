@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.map do |call|
-    puts "#{call}!"                     # make array into string
+    call.capitalize                     # make array into string
   end
   string = planeteer_calls.join(" ")
   string.capitalize!
