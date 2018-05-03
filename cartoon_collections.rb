@@ -6,7 +6,7 @@ end
 
 def summon_captain_planet(planeteer_calls)
   planeteer_calls.map! { |call| call.capitalize }
-  planeteer_calls.each { |call| puts call + '!'}
+  planeteer_calls.collect { |call| puts call + '!'}
   return planeteer_calls
 end
 
