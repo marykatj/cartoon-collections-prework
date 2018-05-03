@@ -25,4 +25,7 @@ def find_the_cheese(strings)
       if food == cheese
         return food
       else return nil
+      end
+    end
+  end
 end
