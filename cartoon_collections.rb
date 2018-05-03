@@ -5,9 +5,9 @@ def roll_call_dwarves(dwarf_names)
 end
 
 def summon_captain_planet(planeteer_calls)
-  string = planeteer_calls.split(" ")
+  string = planeteer_calls.join(" ")
   new_string = string.capitalize
-  new_planeteer_calls = new_string.join(" ")
+  new_planeteer_calls = new_string.split(" ")
   new_planeteer_calls.collect do |call|
     puts "#{call}!"                     # make array into string
   end
